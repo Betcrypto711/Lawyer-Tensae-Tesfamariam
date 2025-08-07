@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #144b7c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.logo {
+    font-size: 2.5em;
+    margin-right: 16px;
+}
+
+title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.site-title {
+    font-size: 2em;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-size: 1.15em;
+    font-weight: 400;
+    margin-top: 2px;
+    color: #dbe8f6;
+    letter-spacing: 0.5px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(20,75,124,0.08);
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+h1, h2, h3 {
+    color: #144b7c;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+footer {
+    background: #f3f3f3;
+    color: #888;
+    text-align: center;
+    padding: 14px 0;
+    margin-top: 40px;
+    font-size: 0.95em;
+}
